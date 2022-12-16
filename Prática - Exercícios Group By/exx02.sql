@@ -1,0 +1,1 @@
+SELECT "userId", COUNT(*) FROM educations WHERE status='finished' GROUP BY "userId";
